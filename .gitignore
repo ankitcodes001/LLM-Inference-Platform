@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Virtual env
+.venv/
+
+# Hugging Face model cache (weights live in ~/.cache/huggingface, never here)
+models/
+*.safetensors
+*.bin
+
+# Benchmark + experiment output (raw runs stay local, summaries go in docs/)
+runs/
+*.jsonl
+*.csv
+
+# Secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
